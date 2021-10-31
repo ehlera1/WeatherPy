@@ -13,13 +13,19 @@ To help vacationers find a city to travel to we randomly generated 2000 coordina
 Using the Weather Database we created, we were able to pull in the unique city weather data for vacationers to review. We built in a filter to allow users to refine their search results based on temperature. This feature will allow users to narrow their search results depending on what type of vacation they are looking for. For this example, we narrowed the search results down to have warmer temperatures for someone looking to escape from the winter cold. After filtering the results there were approximately 186 cities that met the temperature filters that had a hotel within a reasonable distance. Using our google API we were able to generate a map that users could easily review cites, the weather for that city and nearby hotels. 
 Below is an example of the map we created: 
 
-!Insert Map1
+![WeatherPy_vacation_map](https://user-images.githubusercontent.com/90698381/139599954-c5a06bbb-8b19-4dd5-9d3d-9d0cc1fd81c7.png)
 
 ### Vacation Itinerary Application
 Once users had selected a general area or a few cities that they would like to travel to we were able to generate a travel map, again using our google API. This feature of the application conveniently shows a directional map of how users can travel from destination to destination along with the weather for the city and nearby hotels. 
-Below is and example of the map with directions that we created: 
 
-!Insert Map 2
+Below is an example of the map with directions that we created: 
+
+![WeatherPy_travel_map](https://user-images.githubusercontent.com/90698381/139599966-4f7ed811-4229-4721-aecc-b66450392865.png)
+
+Below is an example of the weather for the chosen cities and nearby hotels:
+
+![WeatherPy_travel_map_markers](https://user-images.githubusercontent.com/90698381/139599995-33668a04-e1da-4141-9610-789f7d4abb59.png)
+
 
 ## Summary 
 This application provides a convenient tool for vacationers to plan a trip as well as routes based on their ideal weather. It will also allow them to find nearby hotels. Overall we think that this tool will help take some of the stress out of planning a vacation. 
